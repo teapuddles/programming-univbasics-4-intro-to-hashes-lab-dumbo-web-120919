@@ -29,5 +29,8 @@ end
 
 def update_counting_hash(hash, key)
  update_hash = update_counting_hash
- if update_hash[key] += 1
+ if update_hash[key] += 1 
+ else
+   udate_hash[key] = 1
+ end
 end
