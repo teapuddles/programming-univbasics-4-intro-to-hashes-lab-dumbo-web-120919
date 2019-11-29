@@ -20,7 +20,7 @@ end
 
 def read_from_hash(hash, key)
   if hash = {key => 'value'}
-    puts 'value'
+    puts hash
   else
 end
     puts
