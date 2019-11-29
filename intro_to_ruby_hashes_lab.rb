@@ -20,7 +20,7 @@ end
 
 def read_from_hash(hash, key)
   hash[:key]
-  puts 
+  hash[:key] = "value"
 end
 
 def update_counting_hash(hash, key)
