@@ -21,7 +21,6 @@ end
 def read_from_hash(hash, key)
   if hash[:key]
     puts
-  else 
 end
 
 def update_counting_hash(hash, key)
