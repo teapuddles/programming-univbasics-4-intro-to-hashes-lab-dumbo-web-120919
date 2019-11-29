@@ -19,10 +19,9 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  if hash[:key]
-    puts
-  else hash = {:key => "value"}
+  if hash = {:key => "value"}
     puts :key
+  else puts hash[:key]
   end
 end
 
