@@ -21,7 +21,11 @@ end
 def read_from_hash(hash, key)
   hash = {key => 'value'}
    if hash[:key] = 'value'
-     puts ''
+     puts 'value'
+   else
+ end
+ puts
+ end
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
