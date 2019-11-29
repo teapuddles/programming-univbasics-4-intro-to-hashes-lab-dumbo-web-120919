@@ -22,6 +22,8 @@ def read_from_hash(hash, key)
   key = :key
   if read_from_hash[:key]
     puts "value"
+  else
+    puts
 end
 
 def update_counting_hash(hash, key)
