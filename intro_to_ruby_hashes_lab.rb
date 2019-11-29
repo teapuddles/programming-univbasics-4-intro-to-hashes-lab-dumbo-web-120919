@@ -21,8 +21,8 @@ end
 def read_from_hash(hash, key)
   if hash[:key]
     puts
-  else hash[:key] = "value"
-    puts "value"
+  else hash = {:key => "value"}
+    puts hash
   end
 end
 
