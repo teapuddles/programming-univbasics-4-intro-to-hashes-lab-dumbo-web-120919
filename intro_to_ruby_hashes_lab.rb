@@ -20,7 +20,7 @@ end
 
 def read_from_hash(hash, key)
   key = :key
-  if read_from_hash[:key]
+  if hash[:key]
     puts "value"
   else
 end
