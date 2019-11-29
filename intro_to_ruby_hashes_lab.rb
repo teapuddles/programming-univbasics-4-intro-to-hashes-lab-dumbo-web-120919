@@ -23,6 +23,7 @@ def read_from_hash(hash, key)
   if read_from_hash[:key]
     puts "value"
   else
+end
     puts
 end
 
