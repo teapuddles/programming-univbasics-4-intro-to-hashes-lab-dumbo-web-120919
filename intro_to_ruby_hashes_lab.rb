@@ -19,7 +19,9 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  if read_from_hash[key]
+  key = :key
+  if read_from_hash[:key]
+    puts "value"
 end
 
 def update_counting_hash(hash, key)
