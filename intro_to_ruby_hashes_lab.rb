@@ -19,12 +19,9 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  if hash = {key => 'value'}
-    puts hash
-  else
-end
-    puts
-end
+  hash = {key => 'value'}
+   if hash[:key] = 'value'
+     puts ''
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
