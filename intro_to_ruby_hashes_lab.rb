@@ -19,12 +19,12 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  if hash[:key] = "value"
-    puts :key
-  else
-    hash[:key]
-  end
-  puts
+ if hash[key => value]
+   return hash
+ else 
+   hash[key]
+ end
+ puts
 end
 
 def update_counting_hash(hash, key)
