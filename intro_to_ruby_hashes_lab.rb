@@ -16,8 +16,7 @@ end
 
 def my_hash_creator(key, value)
   key = :key
-  value = "value"
-  my_creation = {:key => "value"}
+  my_creation = {:key => value}
   return my_creation
 end
 
